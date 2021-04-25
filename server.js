@@ -44,7 +44,7 @@ let upload = multer({ storage: storage });
 // define a simple route
 app.get("/", (req, res) => {
   res.json({
-    message: "CAFS APIs",
+    message: "welcome to snaptrude project",
   });
 });
 services({ app, upload });
